@@ -1,0 +1,21 @@
+{
+  "name": "slick-notes",
+  "version": "1.0.0",
+  "description": "A slick to-do / note taking app for windows",
+  "license": "GPL-3.0",
+  "author": "Jake-makes",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.6"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.2",
+    "electron-builder": "^26.0.12",
+    "electron": "^37.4.0"
+  }
+}
